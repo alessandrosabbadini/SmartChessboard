@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "SmartChessboard-altium-import")(type "KiCad")(uri "${KIPRJMOD}/SmartChessboard-altium-import.kicad_sym")(options "")(descr ""))
+)

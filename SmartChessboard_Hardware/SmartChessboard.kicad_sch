@@ -2,8 +2,14 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid a2f9eecb-02cf-431e-b0ec-076534771ab8)
+	(uuid "a2f9eecb-02cf-431e-b0ec-076534771ab8")
 	(paper "A4")
+	(title_block
+		(title "SmartChessboard")
+		(date "2025-08-24")
+		(rev "0")
+		(comment 1 "Releases under CERN Open Hardware Licence Version 2")
+	)
 	(lib_symbols)
 	(sheet_instances
 		(path "/"
