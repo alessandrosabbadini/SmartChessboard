@@ -612,6 +612,14 @@
     [
       "50d928c0-ff4c-4bb8-82fb-6f4f93efef2a",
       "Root"
+    ],
+    [
+      "91a502f8-9562-4bc5-9716-903a7cbe701b",
+      "Peripherals"
+    ],
+    [
+      "b92e9d86-f905-4b30-98a4-3c11b7d82520",
+      "LEDs"
     ]
   ],
   "text_variables": {}
