@@ -430,7 +430,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -596,6 +596,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -620,6 +628,10 @@
     [
       "b92e9d86-f905-4b30-98a4-3c11b7d82520",
       "LEDs"
+    ],
+    [
+      "dc4a49c0-adf4-409a-9d7e-6d593011572b",
+      "Hall sensors"
     ]
   ],
   "text_variables": {}

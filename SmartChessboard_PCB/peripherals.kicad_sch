@@ -1414,106 +1414,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SparkFun-Connector:TestPoint_1.0mm"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 5.08 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1.0mm"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Test Point"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_1.0mm_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1.0mm_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SparkFun-IC-Power:MAX17048"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2323,267 +2223,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SparkFun-LED:WS2812B_2020"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -5.08 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "WS2812B"
-				(at 5.08 -6.35 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SparkFun-LED:WS2812_2020"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://cdn.sparkfun.com/assets/e/1/0/f/b/WS2812C-2020_V1.2_EN_19112716191654.pdf"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RGB LED with integrated controller"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PROD_ID" "DIO-15591"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SparkFun RGB LED NeoPixel addressable WS2812 APA102"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "WS2812B_2020_0_0"
-				(text "RGB"
-					(at 2.286 -4.191 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(symbol "WS2812B_2020_0_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.778 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.556) (xy 1.778 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -3.556) (xy 2.667 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 5.08)
-					(end -5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "WS2812B_2020_1_1"
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "DIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4437,17 +4076,6 @@
 		)
 		(uuid "0d1e894a-61d6-4b8f-bd2b-bcc15b09fae5")
 	)
-	(text "RGB LED"
-		(exclude_from_sim no)
-		(at 140.97 86.36 0)
-		(effects
-			(font
-				(size 3 3)
-			)
-			(justify left bottom)
-		)
-		(uuid "3ca46828-92dd-494b-a707-6f2f74e551d2")
-	)
 	(text "Peripheral Power Control"
 		(exclude_from_sim no)
 		(at 38.1 21.59 0)
@@ -4544,16 +4172,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f35120b9-88eb-4812-bfdc-61ed8ddda48e")
-	)
-	(wire
-		(pts
-			(xy 149.86 111.76) (xy 149.86 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "099139f0-d48a-4d51-af64-525eab1f8bcd")
 	)
 	(wire
 		(pts
@@ -4765,16 +4383,6 @@
 		)
 		(uuid "4a07dbfc-bbe3-41f1-82f1-5888d301192f")
 	)
-	(wire
-		(pts
-			(xy 157.48 104.14) (xy 158.75 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b31390e-57b7-4aa4-b42a-902c31010211")
-	)
 	(polyline
 		(pts
 			(xy 284.48 71.12) (xy 226.06 71.12)
@@ -4917,16 +4525,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 109.22) (xy 166.37 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ad7f023-9401-4031-854a-fb65fdc3db88")
-	)
-	(wire
-		(pts
 			(xy 59.69 104.14) (xy 59.69 107.95)
 		)
 		(stroke
@@ -4984,16 +4582,6 @@
 			(type default)
 		)
 		(uuid "7ae55d0e-0a4b-4e02-a798-125e960740fb")
-	)
-	(wire
-		(pts
-			(xy 158.75 102.87) (xy 158.75 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fa17d4a-b18c-4f38-98d0-43bab3ea4a0d")
 	)
 	(wire
 		(pts
@@ -5084,16 +4672,6 @@
 			(type default)
 		)
 		(uuid "b83c7edd-d34a-4fb1-9fe8-c14755909390")
-	)
-	(wire
-		(pts
-			(xy 166.37 99.06) (xy 166.37 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd151c74-af01-49d3-88d3-4657ca4d753d")
 	)
 	(wire
 		(pts
@@ -5207,16 +4785,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 104.14) (xy 142.24 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ded6b361-8e6d-4b07-a0d2-cf1f47cdf46e")
-	)
-	(wire
-		(pts
 			(xy 59.69 66.04) (xy 59.69 64.77)
 		)
 		(stroke
@@ -5244,16 +4812,6 @@
 			(type default)
 		)
 		(uuid "e2b368db-5bec-47f2-b8a6-2d9d7f829ed4")
-	)
-	(wire
-		(pts
-			(xy 149.86 95.25) (xy 149.86 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7b8eada-66de-4f22-9439-72910d61da40")
 	)
 	(wire
 		(pts
@@ -5338,28 +4896,6 @@
 		(uuid "3015987f-d7b5-40a8-8156-5c3fdd62121d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 29.3092 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ESP46{slash}LED"
-		(shape input)
-		(at 140.97 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "47cd4333-1c55-4fa0-882c-355902191929")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.1597 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5476,103 +5012,6 @@
 				)
 				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Capacitor:0.1uF_0402_6.3V_10%")
-		(at 166.37 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0042013b-78a2-4746-baa6-8fba3405e94c")
-		(property "Reference" "C9"
-			(at 170.18 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 170.18 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SparkFun-Capacitor:C_0402_1005Metric"
-			(at 166.37 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
-			(at 166.37 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 166.37 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD_ID" "CAP-14993"
-			(at 166.37 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "6.3V"
-			(at 170.18 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 170.18 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "e7c16e02-2a69-4fc0-9cf0-a9af98f3c86e")
-		)
-		(pin "2"
-			(uuid "0b5fd2ae-8ed2-47d0-9c01-65c1c91ae670")
-		)
-		(instances
-			(project "SmartChessboard_PCB"
-				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a/91a502f8-9562-4bc5-9716-903a7cbe701b"
-					(reference "C9")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -6177,72 +5616,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Connector:TestPoint_1.0mm")
-		(at 158.75 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4115aa34-1b50-4a6a-88d9-fba62b07b12f")
-		(property "Reference" "TP2"
-			(at 158.75 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.0mm"
-			(at 158.75 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
-			(at 158.75 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point"
-			(at 158.75 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f9e46a32-5874-4729-8243-33d9a47db0ab")
-		)
-		(instances
-			(project "SmartChessboard_PCB"
-				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a/91a502f8-9562-4bc5-9716-903a7cbe701b"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-Resistor:1k_0402")
 		(at 208.28 113.03 270)
 		(unit 1)
@@ -6571,91 +5944,6 @@
 			(project "SmartChessboard_PCB"
 				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a/91a502f8-9562-4bc5-9716-903a7cbe701b"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-LED:WS2812B_2020")
-		(at 149.86 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5b7c3191-6168-4980-b30e-fc0a3e0485cb")
-		(property "Reference" "D5"
-			(at 152.4 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 154.94 110.49 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SparkFun-LED:WS2812_2020"
-			(at 151.13 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/e/1/0/f/b/WS2812C-2020_V1.2_EN_19112716191654.pdf"
-			(at 152.4 113.665 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 149.86 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD_ID" "DIO-15591"
-			(at 149.86 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2d625aae-0623-4786-9340-8d5649d6e41c")
-		)
-		(pin "2"
-			(uuid "a29c7760-18c8-4771-b842-d8e8fe8cb2d4")
-		)
-		(pin "3"
-			(uuid "ce145e30-379a-4795-95a0-944742ebb887")
-		)
-		(pin "4"
-			(uuid "3f0c6c14-8865-494b-8d87-4f3bb20f8a0f")
-		)
-		(instances
-			(project "SmartChessboard_PCB"
-				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a/91a502f8-9562-4bc5-9716-903a7cbe701b"
-					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -7827,71 +7115,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-PowerSymbol:GND")
-		(at 149.86 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a8273780-f226-444a-9376-9b703c694cc4")
-		(property "Reference" "#PWR043"
-			(at 149.86 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 149.86 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "295b98c8-a0d8-4062-a259-65396123d96f")
-		)
-		(instances
-			(project "SmartChessboard_PCB"
-				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a/91a502f8-9562-4bc5-9716-903a7cbe701b"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V_P")
 		(at 85.09 50.8 0)
 		(unit 1)
@@ -8016,136 +7239,6 @@
 			(project "SmartChessboard_PCB"
 				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a/91a502f8-9562-4bc5-9716-903a7cbe701b"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-PowerSymbol:3.3V_P")
-		(at 166.37 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b522ea25-25e1-435c-bbfc-41423078f5ae")
-		(property "Reference" "#PWR044"
-			(at 166.37 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V_P"
-			(at 166.37 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"3.3V_P\""
-			(at 166.37 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d45b6e27-d3c6-4c32-a22c-b5f4aae82e6d")
-		)
-		(instances
-			(project "SmartChessboard_PCB"
-				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a/91a502f8-9562-4bc5-9716-903a7cbe701b"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-PowerSymbol:3.3V_P")
-		(at 149.86 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b8ef63d2-668c-45cc-abd5-9f043f08da56")
-		(property "Reference" "#PWR042"
-			(at 149.86 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V_P"
-			(at 149.86 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"3.3V_P\""
-			(at 149.86 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "83e30814-b78d-4b86-a9ff-ede8317b5fda")
-		)
-		(instances
-			(project "SmartChessboard_PCB"
-				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a/91a502f8-9562-4bc5-9716-903a7cbe701b"
-					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -8647,71 +7740,6 @@
 			(project "SmartChessboard_PCB"
 				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a/91a502f8-9562-4bc5-9716-903a7cbe701b"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-PowerSymbol:GND")
-		(at 166.37 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cf8b1738-8924-445a-a2b2-a66ae3fe1d15")
-		(property "Reference" "#PWR045"
-			(at 166.37 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 166.37 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d066d993-38b1-4d9a-abfc-48d13e091d6a")
-		)
-		(instances
-			(project "SmartChessboard_PCB"
-				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a/91a502f8-9562-4bc5-9716-903a7cbe701b"
-					(reference "#PWR045")
 					(unit 1)
 				)
 			)
