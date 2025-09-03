@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "US5681KSE-AAA-000-RE")(type "KiCad")(uri "/Users/alessandrosabbadini/Documents/KiCad/Libraries/Hall sensors/US5681KSE-AAA-000-RE")(options "")(descr ""))
+  (lib (name "US5881ESE-AAA-000-RE")(type "KiCad")(uri "/Users/alessandrosabbadini/Documents/KiCad/Libraries/Hall sensors/US5881ESE-AAA-000-RE")(options "")(descr ""))
+)

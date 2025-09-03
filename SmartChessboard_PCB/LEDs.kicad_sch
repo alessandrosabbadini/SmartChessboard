@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "7b6ff80e-42e4-4038-bc45-3580f068c044")
 	(paper "A3")
+	(title_block
+		(title "SmartChessboard")
+		(date "2025-08-15")
+		(rev "0")
+		(comment 3 "Released under CERN Open Hardware Licence Version 2")
+		(comment 4 "Designed by: Alessandro Sabbadini")
+	)
 	(lib_symbols
 		(symbol "LED:WS2812B"
 			(pin_names
@@ -826,147 +833,6 @@
 					(length 0)
 					(hide yes)
 					(name "+5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "WS2812B-altium-import:GND_POWER_GROUND"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'GND'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_POWER_GROUND_0_0"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -3.302) (xy 1.778 -3.302)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -4.064) (xy 1.016 -4.064)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -4.826) (xy 0.254 -4.826)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9381,6 +9247,73 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-PowerSymbol:5V")
+		(at 55.88 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f61758b-7f49-4790-a148-317485db22fc")
+		(property "Reference" "#PWR079"
+			(at 55.88 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V"
+			(at 55.88 49.53 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"5V\""
+			(at 55.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "683526c3-b839-4c4d-b063-cd39553b311b")
+		)
+		(instances
+			(project "SmartChessboard_PCB"
+				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a/b92e9d86-f905-4b30-98a4-3c11b7d82520"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
 		(at 143.51 209.55 0)
 		(unit 1)
@@ -11508,68 +11441,6 @@
 		)
 	)
 	(symbol
-		(lib_id "WS2812B-altium-import:GND_POWER_GROUND")
-		(at 55.88 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3ba60d8d-948e-47e8-b92f-64079280523f")
-		(property "Reference" "#PWR080"
-			(at 55.88 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 55.88 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "972d9ea9-5c8f-44f8-9bfd-824d55281c3c")
-		)
-		(instances
-			(project "SmartChessboard_PCB"
-				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a/b92e9d86-f905-4b30-98a4-3c11b7d82520"
-					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED:WS2812B")
 		(at 383.54 168.91 0)
 		(unit 1)
@@ -13446,68 +13317,6 @@
 		)
 	)
 	(symbol
-		(lib_id "WS2812B-altium-import:+5V_BAR")
-		(at 55.88 53.34 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4ccb7ec0-297e-461e-b615-9b4284920882")
-		(property "Reference" "#PWR081"
-			(at 55.88 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 55.88 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "0c686e87-7d77-4d38-a428-11b8a4b9fb4b")
-		)
-		(instances
-			(project "SmartChessboard_PCB"
-				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a/b92e9d86-f905-4b30-98a4-3c11b7d82520"
-					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0402,100nF,(2)")
 		(at 340.36 30.48 0)
 		(unit 1)
@@ -14842,6 +14651,71 @@
 			(project "SmartChessboard_PCB"
 				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a/b92e9d86-f905-4b30-98a4-3c11b7d82520"
 					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbol:GND")
+		(at 55.88 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54b83009-185e-459b-83a7-9420905d6c15")
+		(property "Reference" "#PWR081"
+			(at 55.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05c74c35-437e-4d48-b807-09f6d4ccb205")
+		)
+		(instances
+			(project "SmartChessboard_PCB"
+				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a/b92e9d86-f905-4b30-98a4-3c11b7d82520"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -16245,68 +16119,6 @@
 			(project "SmartChessboard_PCB"
 				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a/b92e9d86-f905-4b30-98a4-3c11b7d82520"
 					(reference "#PWR0134")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "WS2812B-altium-import:+5V_BAR")
-		(at 55.88 22.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "682f8179-93c4-469c-a1b3-aa0803f41582")
-		(property "Reference" "#PWR079"
-			(at 55.88 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 55.88 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "2c58d4ed-5481-4c6c-b45e-38241786211e")
-		)
-		(instances
-			(project "SmartChessboard_PCB"
-				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a/b92e9d86-f905-4b30-98a4-3c11b7d82520"
-					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -19092,6 +18904,73 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-PowerSymbol:5V")
+		(at 55.88 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8621c76a-2eb3-419e-8346-3c43c546bf9b")
+		(property "Reference" "#PWR043"
+			(at 55.88 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V"
+			(at 55.88 19.05 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"5V\""
+			(at 55.88 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86e23aca-e272-4aae-acdf-8496ebb695cb")
+		)
+		(instances
+			(project "SmartChessboard_PCB"
+				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a/b92e9d86-f905-4b30-98a4-3c11b7d82520"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0402,100nF,(2)")
 		(at 106.68 60.96 0)
 		(unit 1)
@@ -20500,68 +20379,6 @@
 			(project "SmartChessboard_PCB"
 				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a/b92e9d86-f905-4b30-98a4-3c11b7d82520"
 					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "WS2812B-altium-import:GND_POWER_GROUND")
-		(at 55.88 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "92ed092c-a1f4-43e5-8622-bf97a67db731")
-		(property "Reference" "#PWR082"
-			(at 55.88 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 55.88 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "f1ab4c98-bd28-4d2c-b7d6-30b17ae223b2")
-		)
-		(instances
-			(project "SmartChessboard_PCB"
-				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a/b92e9d86-f905-4b30-98a4-3c11b7d82520"
-					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -29182,6 +28999,71 @@
 			(project "SmartChessboard_PCB"
 				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a/b92e9d86-f905-4b30-98a4-3c11b7d82520"
 					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbol:GND")
+		(at 55.88 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4fbb041-9637-446a-93c8-61c1e3c84cfb")
+		(property "Reference" "#PWR080"
+			(at 55.88 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d65ebc6e-aca5-4136-b809-b3c333c5eda9")
+		)
+		(instances
+			(project "SmartChessboard_PCB"
+				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a/b92e9d86-f905-4b30-98a4-3c11b7d82520"
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)

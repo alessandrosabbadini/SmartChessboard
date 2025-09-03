@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "912b1d6b-b43a-47d2-9ff9-5fdeaf49c469")
 	(paper "A4")
+	(title_block
+		(title "SmartChessboard")
+		(date "2025-08-15")
+		(rev "0")
+		(comment 3 "Released under CERN Open Hardware Licence Version 2")
+		(comment 4 "Designed by: Alessandro Sabbadini")
+	)
 	(lib_symbols
 		(symbol "SparkFun-Capacitor:0.1uF_0402_6.3V_10%"
 			(pin_numbers

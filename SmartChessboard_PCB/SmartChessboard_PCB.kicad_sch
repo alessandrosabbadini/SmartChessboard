@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "50d928c0-ff4c-4bb8-82fb-6f4f93efef2a")
 	(paper "A4")
+	(title_block
+		(title "SmartChessboard")
+		(date "2025-08-15")
+		(rev "0")
+		(comment 3 "Released under CERN Open Hardware Licence Version 2")
+		(comment 4 "Designed by: Alessandro Sabbadini")
+	)
 	(lib_symbols
 		(symbol "SparkFun-Aesthetic:OSHW_Logo"
 			(pin_names
@@ -10465,7 +10472,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Aesthetic:OSHW_Logo")
-		(at 273.05 157.48 0)
+		(at 271.78 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -10474,7 +10481,7 @@
 		(fields_autoplaced yes)
 		(uuid "037927a5-3cdd-40f9-9c00-84efedb22bb0")
 		(property "Reference" "G1"
-			(at 273.05 140.97 0)
+			(at 271.78 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10483,7 +10490,7 @@
 			)
 		)
 		(property "Value" "OSHW_Logo"
-			(at 273.05 166.37 0)
+			(at 271.78 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10492,7 +10499,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Aesthetic:Creative_Commons_License"
-			(at 273.2547 157.5043 0)
+			(at 271.9847 154.9643 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10501,7 +10508,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.2547 157.5043 0)
+			(at 271.9847 154.9643 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10510,7 +10517,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 273.05 157.48 0)
+			(at 271.78 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
