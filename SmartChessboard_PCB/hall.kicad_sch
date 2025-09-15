@@ -1212,6 +1212,203 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SparkFun-Jumper:SolderJumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "~"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SparkFun-Jumper:Jumper_2_NC_Trace"
+				(at -0.254 -4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SparkFun solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SparkFun-PowerSymbol:3.3V"
 			(power)
 			(pin_names
@@ -12263,7 +12460,7 @@
 		)
 		(uuid "e8f6b887-acf6-4070-9704-32c30082f7e7")
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_3"
 		(shape input)
 		(at 248.92 24.13 90)
 		(fields_autoplaced yes)
@@ -12285,7 +12482,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_15"
 		(shape input)
 		(at 502.92 54.61 90)
 		(fields_autoplaced yes)
@@ -12297,7 +12494,7 @@
 		)
 		(uuid "01bb84ab-ca4b-4d42-826d-ef2971565fd3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 502.92 45.6378 90)
+			(at 502.92 44.4283 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12373,7 +12570,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_17"
 		(shape input)
 		(at 129.54 92.71 270)
 		(fields_autoplaced yes)
@@ -12385,7 +12582,7 @@
 		)
 		(uuid "03487084-2c08-4e38-8b67-4199c16f2123")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 101.6822 90)
+			(at 129.54 102.8917 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12395,7 +12592,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_47"
 		(shape input)
 		(at 502.92 176.53 90)
 		(fields_autoplaced yes)
@@ -12407,7 +12604,7 @@
 		)
 		(uuid "03597fe3-6250-4d42-933b-c7fe6cbe0d87")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 502.92 167.5578 90)
+			(at 502.92 166.3483 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12439,7 +12636,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_61"
 		(shape input)
 		(at 383.54 245.11 270)
 		(fields_autoplaced yes)
@@ -12451,7 +12648,7 @@
 		)
 		(uuid "03cb5a5c-a976-4cd1-affb-41eeb600df9c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 383.54 254.0822 90)
+			(at 383.54 255.2917 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12505,7 +12702,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_51"
 		(shape input)
 		(at 248.92 207.01 90)
 		(fields_autoplaced yes)
@@ -12517,7 +12714,7 @@
 		)
 		(uuid "0554d3f6-ba9c-4db7-8369-eb7e1215a347")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 198.0378 90)
+			(at 248.92 196.8283 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12527,7 +12724,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_33"
 		(shape input)
 		(at 121.92 146.05 90)
 		(fields_autoplaced yes)
@@ -12539,7 +12736,7 @@
 		)
 		(uuid "06e95d53-aed4-44e1-8a85-e9e7606e21d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.92 137.0778 90)
+			(at 121.92 135.8683 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12549,7 +12746,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_24"
 		(shape input)
 		(at 574.04 92.71 270)
 		(fields_autoplaced yes)
@@ -12561,7 +12758,7 @@
 		)
 		(uuid "07ce4d93-2a98-4e88-b9b5-807ec260eaa6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 574.04 101.6822 90)
+			(at 574.04 102.8917 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12593,7 +12790,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_42"
 		(shape input)
 		(at 193.04 184.15 270)
 		(fields_autoplaced yes)
@@ -12605,7 +12802,7 @@
 		)
 		(uuid "08d1eeb4-c38e-4753-8cf1-0e8735e538b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.04 193.1222 90)
+			(at 193.04 194.3317 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12615,7 +12812,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_48"
 		(shape input)
 		(at 574.04 184.15 270)
 		(fields_autoplaced yes)
@@ -12627,7 +12824,7 @@
 		)
 		(uuid "09711486-8c1f-4afd-a6e2-22f7e46139b1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 574.04 193.1222 90)
+			(at 574.04 194.3317 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12637,7 +12834,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_47"
 		(shape input)
 		(at 510.54 184.15 270)
 		(fields_autoplaced yes)
@@ -12649,7 +12846,7 @@
 		)
 		(uuid "0aea8ac0-cbc1-40f8-a273-1a5d3ec36474")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 510.54 193.1222 90)
+			(at 510.54 194.3317 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12659,7 +12856,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_55"
 		(shape input)
 		(at 510.54 214.63 270)
 		(fields_autoplaced yes)
@@ -12671,7 +12868,7 @@
 		)
 		(uuid "0b428390-94ff-4454-bee6-3d45aaa4da78")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 510.54 223.6022 90)
+			(at 510.54 224.8117 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12703,7 +12900,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_58"
 		(shape input)
 		(at 193.04 245.11 270)
 		(fields_autoplaced yes)
@@ -12715,7 +12912,7 @@
 		)
 		(uuid "0c2f44fc-5ecc-491c-bfb6-77d841f89f21")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.04 254.0822 90)
+			(at 193.04 255.2917 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12747,7 +12944,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_52"
 		(shape input)
 		(at 320.04 214.63 270)
 		(fields_autoplaced yes)
@@ -12759,7 +12956,7 @@
 		)
 		(uuid "0cf55aae-826e-416a-83cd-0f1e4a541067")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 320.04 223.6022 90)
+			(at 320.04 224.8117 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12791,7 +12988,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_40"
 		(shape input)
 		(at 566.42 146.05 90)
 		(fields_autoplaced yes)
@@ -12803,7 +13000,7 @@
 		)
 		(uuid "0d408532-35df-4ac8-a6dc-3098a272a158")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 566.42 137.0778 90)
+			(at 566.42 135.8683 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12857,7 +13054,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_15"
 		(shape input)
 		(at 510.54 62.23 270)
 		(fields_autoplaced yes)
@@ -12869,7 +13066,7 @@
 		)
 		(uuid "10f8b29b-d8d3-4534-af25-77483800f9b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 510.54 71.2022 90)
+			(at 510.54 72.4117 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12989,7 +13186,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_39"
 		(shape input)
 		(at 502.92 146.05 90)
 		(fields_autoplaced yes)
@@ -13001,7 +13198,7 @@
 		)
 		(uuid "174a88d4-888f-4216-b4ed-3e58bfda99fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 502.92 137.0778 90)
+			(at 502.92 135.8683 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13011,7 +13208,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_6"
 		(shape input)
 		(at 439.42 24.13 90)
 		(fields_autoplaced yes)
@@ -13033,7 +13230,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_24"
 		(shape input)
 		(at 566.42 85.09 90)
 		(fields_autoplaced yes)
@@ -13045,7 +13242,7 @@
 		)
 		(uuid "1858495a-817b-41aa-949a-4df7d5b2619b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 566.42 76.1178 90)
+			(at 566.42 74.9083 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13099,7 +13296,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_16"
 		(shape input)
 		(at 574.04 62.23 270)
 		(fields_autoplaced yes)
@@ -13111,7 +13308,7 @@
 		)
 		(uuid "1beb5e9e-db2f-4674-be0c-df01959a7dca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 574.04 71.2022 90)
+			(at 574.04 72.4117 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13165,7 +13362,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_11"
 		(shape input)
 		(at 248.92 54.61 90)
 		(fields_autoplaced yes)
@@ -13177,7 +13374,7 @@
 		)
 		(uuid "1efca0ca-43b4-4702-8cac-99a6fc326d2b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 45.6378 90)
+			(at 248.92 44.4283 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13187,7 +13384,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_13"
 		(shape input)
 		(at 383.54 62.23 270)
 		(fields_autoplaced yes)
@@ -13199,7 +13396,7 @@
 		)
 		(uuid "1f1abb84-b7f9-4862-ac72-723d3657962b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 383.54 71.2022 90)
+			(at 383.54 72.4117 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13231,7 +13428,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_53"
 		(shape input)
 		(at 375.92 207.01 90)
 		(fields_autoplaced yes)
@@ -13243,7 +13440,7 @@
 		)
 		(uuid "1fdbd758-e538-40ca-92b3-75b6190576bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 375.92 198.0378 90)
+			(at 375.92 196.8283 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13253,7 +13450,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_42"
 		(shape input)
 		(at 185.42 176.53 90)
 		(fields_autoplaced yes)
@@ -13265,7 +13462,7 @@
 		)
 		(uuid "20071131-3f51-4f82-9809-6e622f47d0f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.42 167.5578 90)
+			(at 185.42 166.3483 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13275,7 +13472,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_55"
 		(shape input)
 		(at 502.92 207.01 90)
 		(fields_autoplaced yes)
@@ -13287,7 +13484,7 @@
 		)
 		(uuid "20c8015f-ca45-407e-ba0b-7213e05c326d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 502.92 198.0378 90)
+			(at 502.92 196.8283 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13297,7 +13494,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_52"
 		(shape input)
 		(at 312.42 207.01 90)
 		(fields_autoplaced yes)
@@ -13309,7 +13506,7 @@
 		)
 		(uuid "22ac8990-a507-4086-8933-6c6c95f8fe3e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 312.42 198.0378 90)
+			(at 312.42 196.8283 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13363,7 +13560,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_23"
 		(shape input)
 		(at 510.54 92.71 270)
 		(fields_autoplaced yes)
@@ -13375,7 +13572,7 @@
 		)
 		(uuid "23dfa4ff-0815-4eab-9264-077ba86fec09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 510.54 101.6822 90)
+			(at 510.54 102.8917 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13407,7 +13604,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_64"
 		(shape input)
 		(at 574.04 245.11 270)
 		(fields_autoplaced yes)
@@ -13419,7 +13616,7 @@
 		)
 		(uuid "2469d057-7f58-4733-8efd-e012596b8048")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 574.04 254.0822 90)
+			(at 574.04 255.2917 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13429,7 +13626,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_16"
 		(shape input)
 		(at 566.42 54.61 90)
 		(fields_autoplaced yes)
@@ -13441,7 +13638,7 @@
 		)
 		(uuid "26e307bb-c3d3-41cd-9404-7cc35806e16a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 566.42 45.6378 90)
+			(at 566.42 44.4283 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13473,7 +13670,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_59"
 		(shape input)
 		(at 256.54 245.11 270)
 		(fields_autoplaced yes)
@@ -13485,7 +13682,7 @@
 		)
 		(uuid "27df0323-4975-4926-80bb-107d43328c89")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.54 254.0822 90)
+			(at 256.54 255.2917 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13627,7 +13824,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_36"
 		(shape input)
 		(at 312.42 146.05 90)
 		(fields_autoplaced yes)
@@ -13639,7 +13836,7 @@
 		)
 		(uuid "2e8f8a4d-9b07-48f9-ad17-55a0355a38a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 312.42 137.0778 90)
+			(at 312.42 135.8683 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13649,7 +13846,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_27"
 		(shape input)
 		(at 248.92 115.57 90)
 		(fields_autoplaced yes)
@@ -13661,7 +13858,7 @@
 		)
 		(uuid "2f0551f9-adea-40c2-852d-1d6bc2fa62bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 106.5978 90)
+			(at 248.92 105.3883 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13693,7 +13890,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_49"
 		(shape input)
 		(at 121.92 207.01 90)
 		(fields_autoplaced yes)
@@ -13705,7 +13902,7 @@
 		)
 		(uuid "315df4fd-3268-43e5-96d3-65c515d0189c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.92 198.0378 90)
+			(at 121.92 196.8283 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13715,7 +13912,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_40"
 		(shape input)
 		(at 574.04 153.67 270)
 		(fields_autoplaced yes)
@@ -13727,7 +13924,7 @@
 		)
 		(uuid "327a3b05-1509-421a-8283-b57ddc8cae47")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 574.04 162.6422 90)
+			(at 574.04 163.8517 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13759,7 +13956,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_33"
 		(shape input)
 		(at 129.54 153.67 270)
 		(fields_autoplaced yes)
@@ -13771,7 +13968,7 @@
 		)
 		(uuid "35627037-0169-46c1-bd62-dba335f966f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 162.6422 90)
+			(at 129.54 163.8517 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13803,7 +14000,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_37"
 		(shape input)
 		(at 383.54 153.67 270)
 		(fields_autoplaced yes)
@@ -13815,7 +14012,7 @@
 		)
 		(uuid "38885ffe-568e-43bc-a474-caf28e0d801b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 383.54 162.6422 90)
+			(at 383.54 163.8517 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13847,7 +14044,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_18"
 		(shape input)
 		(at 185.42 85.09 90)
 		(fields_autoplaced yes)
@@ -13859,7 +14056,7 @@
 		)
 		(uuid "3b9224e7-c9dc-4b3c-b46a-01811c4196f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.42 76.1178 90)
+			(at 185.42 74.9083 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13869,7 +14066,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_31"
 		(shape input)
 		(at 510.54 123.19 270)
 		(fields_autoplaced yes)
@@ -13881,7 +14078,7 @@
 		)
 		(uuid "3ba93f85-9c22-4d90-8c2e-92d22e7a3bac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 510.54 132.1622 90)
+			(at 510.54 133.3717 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13891,7 +14088,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_34"
 		(shape input)
 		(at 193.04 153.67 270)
 		(fields_autoplaced yes)
@@ -13903,7 +14100,7 @@
 		)
 		(uuid "3cb9ef87-f237-49ad-b61a-1e53f44b7697")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.04 162.6422 90)
+			(at 193.04 163.8517 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13913,7 +14110,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_35"
 		(shape input)
 		(at 256.54 153.67 270)
 		(fields_autoplaced yes)
@@ -13925,7 +14122,7 @@
 		)
 		(uuid "3d4d7116-4ad5-4df8-b834-e24299b95c1c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.54 162.6422 90)
+			(at 256.54 163.8517 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13957,7 +14154,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_8"
 		(shape input)
 		(at 566.42 24.13 90)
 		(fields_autoplaced yes)
@@ -13979,7 +14176,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_2"
 		(shape input)
 		(at 185.42 24.13 90)
 		(fields_autoplaced yes)
@@ -14001,7 +14198,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_2"
 		(shape input)
 		(at 193.04 31.75 270)
 		(fields_autoplaced yes)
@@ -14045,7 +14242,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_22"
 		(shape input)
 		(at 447.04 92.71 270)
 		(fields_autoplaced yes)
@@ -14057,7 +14254,7 @@
 		)
 		(uuid "45c8a710-bcd8-421e-8280-d990a67d785e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 447.04 101.6822 90)
+			(at 447.04 102.8917 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14067,7 +14264,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_4"
 		(shape input)
 		(at 312.42 24.13 90)
 		(fields_autoplaced yes)
@@ -14133,7 +14330,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_13"
 		(shape input)
 		(at 375.92 54.61 90)
 		(fields_autoplaced yes)
@@ -14145,7 +14342,7 @@
 		)
 		(uuid "4aa29e12-626d-469d-9fe3-147e67699137")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 375.92 45.6378 90)
+			(at 375.92 44.4283 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14243,7 +14440,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_29"
 		(shape input)
 		(at 383.54 123.19 270)
 		(fields_autoplaced yes)
@@ -14255,7 +14452,7 @@
 		)
 		(uuid "4f201104-2303-468c-ae84-f32b3c1e4dc4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 383.54 132.1622 90)
+			(at 383.54 133.3717 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14287,7 +14484,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_12"
 		(shape input)
 		(at 320.04 62.23 270)
 		(fields_autoplaced yes)
@@ -14299,7 +14496,7 @@
 		)
 		(uuid "4f9e32ca-09cd-4983-90f0-457ae1805024")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 320.04 71.2022 90)
+			(at 320.04 72.4117 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14331,7 +14528,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_5"
 		(shape input)
 		(at 383.54 31.75 270)
 		(fields_autoplaced yes)
@@ -14397,7 +14594,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_62"
 		(shape input)
 		(at 439.42 237.49 90)
 		(fields_autoplaced yes)
@@ -14409,7 +14606,7 @@
 		)
 		(uuid "5559d9db-f188-490d-a79b-5e476b1771df")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 439.42 228.5178 90)
+			(at 439.42 227.3083 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14419,7 +14616,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_54"
 		(shape input)
 		(at 439.42 207.01 90)
 		(fields_autoplaced yes)
@@ -14431,7 +14628,7 @@
 		)
 		(uuid "5802e14a-eb9e-4ab8-b4b2-37516fa90922")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 439.42 198.0378 90)
+			(at 439.42 196.8283 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14441,7 +14638,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_10"
 		(shape input)
 		(at 193.04 62.23 270)
 		(fields_autoplaced yes)
@@ -14453,7 +14650,7 @@
 		)
 		(uuid "586d91fa-71f7-4993-ac6c-b61efcebd62d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.04 71.2022 90)
+			(at 193.04 72.4117 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14463,7 +14660,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_37"
 		(shape input)
 		(at 375.92 146.05 90)
 		(fields_autoplaced yes)
@@ -14475,7 +14672,7 @@
 		)
 		(uuid "597db591-530d-4ed2-8924-a86a6bfa43b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 375.92 137.0778 90)
+			(at 375.92 135.8683 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14507,7 +14704,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_25"
 		(shape input)
 		(at 129.54 123.19 270)
 		(fields_autoplaced yes)
@@ -14519,7 +14716,7 @@
 		)
 		(uuid "5b397057-fd08-45a7-b09f-bb614b468973")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 132.1622 90)
+			(at 129.54 133.3717 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14529,7 +14726,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_28"
 		(shape input)
 		(at 320.04 123.19 270)
 		(fields_autoplaced yes)
@@ -14541,7 +14738,7 @@
 		)
 		(uuid "5c351247-0d5d-4938-a17f-57a4f31a23b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 320.04 132.1622 90)
+			(at 320.04 133.3717 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14573,7 +14770,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_17"
 		(shape input)
 		(at 121.92 85.09 90)
 		(fields_autoplaced yes)
@@ -14585,7 +14782,7 @@
 		)
 		(uuid "5e6016ec-04a8-4a9d-9ca0-fd98a9aa894e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.92 76.1178 90)
+			(at 121.92 74.9083 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14595,7 +14792,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_28"
 		(shape input)
 		(at 312.42 115.57 90)
 		(fields_autoplaced yes)
@@ -14607,7 +14804,7 @@
 		)
 		(uuid "5ee77c03-b58c-4cf7-b272-0d1363e8b17b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 312.42 106.5978 90)
+			(at 312.42 105.3883 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14793,7 +14990,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_21"
 		(shape input)
 		(at 375.92 85.09 90)
 		(fields_autoplaced yes)
@@ -14805,7 +15002,7 @@
 		)
 		(uuid "655e448c-5634-4241-b386-b076756fa241")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 375.92 76.1178 90)
+			(at 375.92 74.9083 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14903,7 +15100,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_12"
 		(shape input)
 		(at 312.42 54.61 90)
 		(fields_autoplaced yes)
@@ -14915,7 +15112,7 @@
 		)
 		(uuid "688f9974-3408-4d15-b04e-39b20c63cf68")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 312.42 45.6378 90)
+			(at 312.42 44.4283 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14947,7 +15144,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_27"
 		(shape input)
 		(at 256.54 123.19 270)
 		(fields_autoplaced yes)
@@ -14959,7 +15156,7 @@
 		)
 		(uuid "6982055d-3f98-4d91-b1f1-5efdda1a2f51")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.54 132.1622 90)
+			(at 256.54 133.3717 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14969,7 +15166,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_58"
 		(shape input)
 		(at 185.42 237.49 90)
 		(fields_autoplaced yes)
@@ -14981,7 +15178,7 @@
 		)
 		(uuid "69eb53c2-3ae4-41dc-937c-c045d5411cf3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.42 228.5178 90)
+			(at 185.42 227.3083 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15035,7 +15232,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_23"
 		(shape input)
 		(at 502.92 85.09 90)
 		(fields_autoplaced yes)
@@ -15047,7 +15244,7 @@
 		)
 		(uuid "6d4a3fcc-76ae-4efc-8258-5d663963992d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 502.92 76.1178 90)
+			(at 502.92 74.9083 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15123,7 +15320,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_63"
 		(shape input)
 		(at 502.92 237.49 90)
 		(fields_autoplaced yes)
@@ -15135,7 +15332,7 @@
 		)
 		(uuid "6fc9fba3-69d0-4bce-9883-375a099ba030")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 502.92 228.5178 90)
+			(at 502.92 227.3083 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15189,7 +15386,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_46"
 		(shape input)
 		(at 447.04 184.15 270)
 		(fields_autoplaced yes)
@@ -15201,7 +15398,7 @@
 		)
 		(uuid "70d6f363-6233-4609-aea8-779050b54cb1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 447.04 193.1222 90)
+			(at 447.04 194.3317 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15277,7 +15474,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_3"
 		(shape input)
 		(at 256.54 31.75 270)
 		(fields_autoplaced yes)
@@ -15387,7 +15584,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_22"
 		(shape input)
 		(at 439.42 85.09 90)
 		(fields_autoplaced yes)
@@ -15399,7 +15596,7 @@
 		)
 		(uuid "7e36b4ef-a69d-4ba8-9d8a-f3e559f82304")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 439.42 76.1178 90)
+			(at 439.42 74.9083 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15431,7 +15628,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_57"
 		(shape input)
 		(at 129.54 245.11 270)
 		(fields_autoplaced yes)
@@ -15443,7 +15640,7 @@
 		)
 		(uuid "7fc43726-a1a5-47cf-898d-f599b30ef5a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 254.0822 90)
+			(at 129.54 255.2917 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15475,7 +15672,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_48"
 		(shape input)
 		(at 566.42 176.53 90)
 		(fields_autoplaced yes)
@@ -15487,7 +15684,7 @@
 		)
 		(uuid "817e25f3-10dd-4986-906c-7917e93f59be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 566.42 167.5578 90)
+			(at 566.42 166.3483 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15519,7 +15716,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_56"
 		(shape input)
 		(at 574.04 214.63 270)
 		(fields_autoplaced yes)
@@ -15531,7 +15728,7 @@
 		)
 		(uuid "85182a0e-9914-439a-b700-6f97209f80e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 574.04 223.6022 90)
+			(at 574.04 224.8117 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15541,7 +15738,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_14"
 		(shape input)
 		(at 439.42 54.61 90)
 		(fields_autoplaced yes)
@@ -15553,7 +15750,7 @@
 		)
 		(uuid "857b597f-f33f-4234-bcbd-cf7f3dc92b31")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 439.42 45.6378 90)
+			(at 439.42 44.4283 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15673,7 +15870,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_59"
 		(shape input)
 		(at 248.92 237.49 90)
 		(fields_autoplaced yes)
@@ -15685,7 +15882,7 @@
 		)
 		(uuid "8db2c960-945a-447b-8366-a6f92a8882fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 228.5178 90)
+			(at 248.92 227.3083 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15695,7 +15892,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_21"
 		(shape input)
 		(at 383.54 92.71 270)
 		(fields_autoplaced yes)
@@ -15707,7 +15904,7 @@
 		)
 		(uuid "8e57eb99-3862-466e-a082-a28cf34572e5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 383.54 101.6822 90)
+			(at 383.54 102.8917 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15739,7 +15936,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_26"
 		(shape input)
 		(at 193.04 123.19 270)
 		(fields_autoplaced yes)
@@ -15751,7 +15948,7 @@
 		)
 		(uuid "8fea6a2b-f12d-43cf-9b1f-4ad3094466d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.04 132.1622 90)
+			(at 193.04 133.3717 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15783,7 +15980,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_41"
 		(shape input)
 		(at 121.92 176.53 90)
 		(fields_autoplaced yes)
@@ -15795,7 +15992,7 @@
 		)
 		(uuid "94b3a539-85a7-490d-b054-9b5c3ba2d73c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.92 167.5578 90)
+			(at 121.92 166.3483 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16003,7 +16200,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_35"
 		(shape input)
 		(at 248.92 146.05 90)
 		(fields_autoplaced yes)
@@ -16015,7 +16212,7 @@
 		)
 		(uuid "9aec2897-81b5-4c5d-9ea3-76df57eae0e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 137.0778 90)
+			(at 248.92 135.8683 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16091,7 +16288,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_8"
 		(shape input)
 		(at 574.04 31.75 270)
 		(fields_autoplaced yes)
@@ -16157,7 +16354,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_64"
 		(shape input)
 		(at 566.42 237.49 90)
 		(fields_autoplaced yes)
@@ -16169,7 +16366,7 @@
 		)
 		(uuid "a26056a7-d02f-441b-a155-8ed84fa8433b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 566.42 228.5178 90)
+			(at 566.42 227.3083 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16201,7 +16398,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_9"
 		(shape input)
 		(at 121.92 54.61 90)
 		(fields_autoplaced yes)
@@ -16333,7 +16530,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_6"
 		(shape input)
 		(at 447.04 31.75 270)
 		(fields_autoplaced yes)
@@ -16421,7 +16618,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_20"
 		(shape input)
 		(at 320.04 92.71 270)
 		(fields_autoplaced yes)
@@ -16433,7 +16630,7 @@
 		)
 		(uuid "a863e26e-a6e2-476a-8a3b-2d84e8bbedc2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 320.04 101.6822 90)
+			(at 320.04 102.8917 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16443,7 +16640,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_60"
 		(shape input)
 		(at 312.42 237.49 90)
 		(fields_autoplaced yes)
@@ -16455,7 +16652,7 @@
 		)
 		(uuid "aa2b82ed-af26-4971-8f39-9a062b19f67b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 312.42 228.5178 90)
+			(at 312.42 227.3083 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16575,7 +16772,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_46"
 		(shape input)
 		(at 439.42 176.53 90)
 		(fields_autoplaced yes)
@@ -16587,7 +16784,7 @@
 		)
 		(uuid "ade75e88-a519-4eda-b1a5-446f0471e9c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 439.42 167.5578 90)
+			(at 439.42 166.3483 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16597,7 +16794,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_45"
 		(shape input)
 		(at 383.54 184.15 270)
 		(fields_autoplaced yes)
@@ -16609,7 +16806,7 @@
 		)
 		(uuid "adf6c8da-1065-4acd-a301-c284b90932c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 383.54 193.1222 90)
+			(at 383.54 194.3317 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16641,7 +16838,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_43"
 		(shape input)
 		(at 256.54 184.15 270)
 		(fields_autoplaced yes)
@@ -16653,7 +16850,7 @@
 		)
 		(uuid "af76656c-f639-4504-89e8-3f85af745446")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.54 193.1222 90)
+			(at 256.54 194.3317 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16795,7 +16992,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_38"
 		(shape input)
 		(at 447.04 153.67 270)
 		(fields_autoplaced yes)
@@ -16807,7 +17004,7 @@
 		)
 		(uuid "b134d01c-3b34-4933-99ec-b92a320989b1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 447.04 162.6422 90)
+			(at 447.04 163.8517 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16817,7 +17014,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_51"
 		(shape input)
 		(at 256.54 214.63 270)
 		(fields_autoplaced yes)
@@ -16829,7 +17026,7 @@
 		)
 		(uuid "b1aad369-0cff-4d07-b1a2-67fcc6d188d4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.54 223.6022 90)
+			(at 256.54 224.8117 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16839,7 +17036,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_61"
 		(shape input)
 		(at 375.92 237.49 90)
 		(fields_autoplaced yes)
@@ -16851,7 +17048,7 @@
 		)
 		(uuid "b2511ed0-e9c6-4f23-b598-345a4e618241")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 375.92 228.5178 90)
+			(at 375.92 227.3083 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16883,7 +17080,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_4"
 		(shape input)
 		(at 320.04 31.75 270)
 		(fields_autoplaced yes)
@@ -16905,7 +17102,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_5"
 		(shape input)
 		(at 375.92 24.13 90)
 		(fields_autoplaced yes)
@@ -16949,7 +17146,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_20"
 		(shape input)
 		(at 312.42 85.09 90)
 		(fields_autoplaced yes)
@@ -16961,7 +17158,7 @@
 		)
 		(uuid "b845cdc5-ce7d-4ae1-bff9-b25df7ccbe75")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 312.42 76.1178 90)
+			(at 312.42 74.9083 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16971,7 +17168,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_45"
 		(shape input)
 		(at 375.92 176.53 90)
 		(fields_autoplaced yes)
@@ -16983,7 +17180,7 @@
 		)
 		(uuid "b85ed4c4-4d6a-4edc-bba8-5066c45e54de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 375.92 167.5578 90)
+			(at 375.92 166.3483 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16993,7 +17190,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_39"
 		(shape input)
 		(at 510.54 153.67 270)
 		(fields_autoplaced yes)
@@ -17005,7 +17202,7 @@
 		)
 		(uuid "b93e6356-905b-46c4-a450-e787233ca900")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 510.54 162.6422 90)
+			(at 510.54 163.8517 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17015,7 +17212,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_10"
 		(shape input)
 		(at 185.42 54.61 90)
 		(fields_autoplaced yes)
@@ -17027,7 +17224,7 @@
 		)
 		(uuid "b96d3f18-f0b9-4fe7-b748-d61ec4ff65fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.42 45.6378 90)
+			(at 185.42 44.4283 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17037,7 +17234,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_62"
 		(shape input)
 		(at 447.04 245.11 270)
 		(fields_autoplaced yes)
@@ -17049,7 +17246,7 @@
 		)
 		(uuid "ba820d71-d6b7-4a70-88bc-a227a34b4402")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 447.04 254.0822 90)
+			(at 447.04 255.2917 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17059,7 +17256,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_19"
 		(shape input)
 		(at 256.54 92.71 270)
 		(fields_autoplaced yes)
@@ -17071,7 +17268,7 @@
 		)
 		(uuid "bc2de24d-806e-4c70-ac9a-0054fcbfe237")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.54 101.6822 90)
+			(at 256.54 102.8917 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17081,7 +17278,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_44"
 		(shape input)
 		(at 312.42 176.53 90)
 		(fields_autoplaced yes)
@@ -17093,7 +17290,7 @@
 		)
 		(uuid "bd1aa2a3-e3e3-4f11-be43-e5e5527f9673")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 312.42 167.5578 90)
+			(at 312.42 166.3483 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17125,7 +17322,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_25"
 		(shape input)
 		(at 121.92 115.57 90)
 		(fields_autoplaced yes)
@@ -17137,7 +17334,7 @@
 		)
 		(uuid "bdf6ad4b-65b8-4b11-828b-ad7eae752a11")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.92 106.5978 90)
+			(at 121.92 105.3883 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17191,7 +17388,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_30"
 		(shape input)
 		(at 447.04 123.19 270)
 		(fields_autoplaced yes)
@@ -17203,7 +17400,7 @@
 		)
 		(uuid "be747578-3cea-4bd4-b6a4-10a512d1e56e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 447.04 132.1622 90)
+			(at 447.04 133.3717 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17235,7 +17432,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_50"
 		(shape input)
 		(at 185.42 207.01 90)
 		(fields_autoplaced yes)
@@ -17247,7 +17444,7 @@
 		)
 		(uuid "bee602dc-bdb6-4bb4-8b69-39f585a8bf1d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.42 198.0378 90)
+			(at 185.42 196.8283 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17257,7 +17454,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_32"
 		(shape input)
 		(at 574.04 123.19 270)
 		(fields_autoplaced yes)
@@ -17269,7 +17466,7 @@
 		)
 		(uuid "bff614d6-5d1c-48b5-b1a2-24bd8b391e9e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 574.04 132.1622 90)
+			(at 574.04 133.3717 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17301,7 +17498,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_19"
 		(shape input)
 		(at 248.92 85.09 90)
 		(fields_autoplaced yes)
@@ -17313,7 +17510,7 @@
 		)
 		(uuid "c08d4ed0-5435-4ce7-a21c-f26b1171e2b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 76.1178 90)
+			(at 248.92 74.9083 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17323,7 +17520,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_7"
 		(shape input)
 		(at 502.92 24.13 90)
 		(fields_autoplaced yes)
@@ -17367,7 +17564,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_30"
 		(shape input)
 		(at 439.42 115.57 90)
 		(fields_autoplaced yes)
@@ -17379,7 +17576,7 @@
 		)
 		(uuid "c67a62d6-5af2-4a18-b006-f6cf7d08c9e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 439.42 106.5978 90)
+			(at 439.42 105.3883 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17389,7 +17586,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_32"
 		(shape input)
 		(at 566.42 115.57 90)
 		(fields_autoplaced yes)
@@ -17401,7 +17598,7 @@
 		)
 		(uuid "c73ebb47-8504-40aa-95cf-a0d19f5b275e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 566.42 106.5978 90)
+			(at 566.42 105.3883 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17411,7 +17608,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_11"
 		(shape input)
 		(at 256.54 62.23 270)
 		(fields_autoplaced yes)
@@ -17423,7 +17620,7 @@
 		)
 		(uuid "c80fcdab-4f66-4de4-aacd-c43c4eec2ffb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.54 71.2022 90)
+			(at 256.54 72.4117 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17455,7 +17652,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_49"
 		(shape input)
 		(at 129.54 214.63 270)
 		(fields_autoplaced yes)
@@ -17467,7 +17664,7 @@
 		)
 		(uuid "c9adf211-f650-4cec-a13c-be3efd399292")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 223.6022 90)
+			(at 129.54 224.8117 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17477,7 +17674,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_57"
 		(shape input)
 		(at 121.92 237.49 90)
 		(fields_autoplaced yes)
@@ -17489,7 +17686,7 @@
 		)
 		(uuid "ca9e5a83-a32e-4cea-801d-8d42935824a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.92 228.5178 90)
+			(at 121.92 227.3083 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17521,7 +17718,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_60"
 		(shape input)
 		(at 320.04 245.11 270)
 		(fields_autoplaced yes)
@@ -17533,7 +17730,7 @@
 		)
 		(uuid "cb663618-631e-462f-a610-17169cccca39")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 320.04 254.0822 90)
+			(at 320.04 255.2917 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17675,7 +17872,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_43"
 		(shape input)
 		(at 248.92 176.53 90)
 		(fields_autoplaced yes)
@@ -17687,7 +17884,7 @@
 		)
 		(uuid "d20dcd1a-22ab-4f2a-9ccb-73e6a1f2490b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 167.5578 90)
+			(at 248.92 166.3483 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17741,7 +17938,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_9"
 		(shape input)
 		(at 129.54 62.23 270)
 		(fields_autoplaced yes)
@@ -17763,7 +17960,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_44"
 		(shape input)
 		(at 320.04 184.15 270)
 		(fields_autoplaced yes)
@@ -17775,7 +17972,7 @@
 		)
 		(uuid "d69d7fd4-6bc4-4e22-a9b8-20133c9d59b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 320.04 193.1222 90)
+			(at 320.04 194.3317 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17785,7 +17982,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_56"
 		(shape input)
 		(at 566.42 207.01 90)
 		(fields_autoplaced yes)
@@ -17797,7 +17994,7 @@
 		)
 		(uuid "d853f540-a8d8-4f78-aac7-6c7559d3b49f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 566.42 198.0378 90)
+			(at 566.42 196.8283 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17829,7 +18026,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_31"
 		(shape input)
 		(at 502.92 115.57 90)
 		(fields_autoplaced yes)
@@ -17841,7 +18038,7 @@
 		)
 		(uuid "dcbdd604-3405-433e-beee-283dfd7f167c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 502.92 106.5978 90)
+			(at 502.92 105.3883 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17851,7 +18048,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_18"
 		(shape input)
 		(at 193.04 92.71 270)
 		(fields_autoplaced yes)
@@ -17863,7 +18060,7 @@
 		)
 		(uuid "dd41abca-e1fa-4b12-b014-416795002ea7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.04 101.6822 90)
+			(at 193.04 102.8917 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17917,7 +18114,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_29"
 		(shape input)
 		(at 375.92 115.57 90)
 		(fields_autoplaced yes)
@@ -17929,7 +18126,7 @@
 		)
 		(uuid "e10ac4d8-d9ae-43ac-b26f-a7bcd71bebe4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 375.92 106.5978 90)
+			(at 375.92 105.3883 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17983,7 +18180,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_50"
 		(shape input)
 		(at 193.04 214.63 270)
 		(fields_autoplaced yes)
@@ -17995,7 +18192,7 @@
 		)
 		(uuid "e435d33e-3d2c-4185-bdc0-fc520d85e8e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.04 223.6022 90)
+			(at 193.04 224.8117 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18005,7 +18202,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_36"
 		(shape input)
 		(at 320.04 153.67 270)
 		(fields_autoplaced yes)
@@ -18017,7 +18214,7 @@
 		)
 		(uuid "e6c9c7b6-1fb7-4f38-b249-93111e670a95")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 320.04 162.6422 90)
+			(at 320.04 163.8517 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18027,7 +18224,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_53"
 		(shape input)
 		(at 383.54 214.63 270)
 		(fields_autoplaced yes)
@@ -18039,7 +18236,7 @@
 		)
 		(uuid "e77db9a0-bc7b-4dc3-8ef5-9fc74038d8f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 383.54 223.6022 90)
+			(at 383.54 224.8117 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18049,7 +18246,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_26"
 		(shape input)
 		(at 185.42 115.57 90)
 		(fields_autoplaced yes)
@@ -18061,7 +18258,7 @@
 		)
 		(uuid "e84ab206-b614-4514-98d3-606ea7afd8ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.42 106.5978 90)
+			(at 185.42 105.3883 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18071,7 +18268,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_34"
 		(shape input)
 		(at 185.42 146.05 90)
 		(fields_autoplaced yes)
@@ -18083,7 +18280,7 @@
 		)
 		(uuid "e939b2d2-7e4c-4e20-ac3a-719be1801742")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.42 137.0778 90)
+			(at 185.42 135.8683 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18093,7 +18290,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_63"
 		(shape input)
 		(at 510.54 245.11 270)
 		(fields_autoplaced yes)
@@ -18105,7 +18302,7 @@
 		)
 		(uuid "e9c8761a-0487-42cc-94a0-67214c1914f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 510.54 254.0822 90)
+			(at 510.54 255.2917 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18115,7 +18312,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_14"
 		(shape input)
 		(at 447.04 62.23 270)
 		(fields_autoplaced yes)
@@ -18127,7 +18324,7 @@
 		)
 		(uuid "eabb7177-2734-496e-b14f-27f0c65d0a70")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 447.04 71.2022 90)
+			(at 447.04 72.4117 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18269,7 +18466,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_54"
 		(shape input)
 		(at 447.04 214.63 270)
 		(fields_autoplaced yes)
@@ -18281,7 +18478,7 @@
 		)
 		(uuid "f35075ed-4313-42f7-84b1-088b85899055")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 447.04 223.6022 90)
+			(at 447.04 224.8117 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18357,7 +18554,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_38"
 		(shape input)
 		(at 439.42 146.05 90)
 		(fields_autoplaced yes)
@@ -18369,7 +18566,7 @@
 		)
 		(uuid "fb5755d4-8a02-40fc-8c96-42e3a6586189")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 439.42 137.0778 90)
+			(at 439.42 135.8683 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18423,7 +18620,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_41"
 		(shape input)
 		(at 129.54 184.15 270)
 		(fields_autoplaced yes)
@@ -18435,7 +18632,7 @@
 		)
 		(uuid "fd7891a8-ffe5-4061-9482-74ac6a840687")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 193.1222 90)
+			(at 129.54 194.3317 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18445,7 +18642,7 @@
 			)
 		)
 	)
-	(global_label "Hall_1"
+	(global_label "Hall_7"
 		(shape input)
 		(at 510.54 31.75 270)
 		(fields_autoplaced yes)
@@ -54352,6 +54549,73 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-PowerSymbol:5V")
+		(at 87.63 273.05 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "821c5bef-f8f3-4047-96c5-074a52f3fc44")
+		(property "Reference" "#PWR050"
+			(at 87.63 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V"
+			(at 87.63 276.86 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"5V\""
+			(at 87.63 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b7547fd-6f9a-49b3-9ad2-3ac8c78420c4")
+		)
+		(instances
+			(project "SmartChessboard_PCB"
+				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a/dc4a49c0-adf4-409a-9d7e-6d593011572b"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0402,100nF,(2)")
 		(at 367.03 242.57 0)
 		(unit 1)
@@ -54931,6 +55195,73 @@
 			(project "SmartChessboard_PCB"
 				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a/dc4a49c0-adf4-409a-9d7e-6d593011572b"
 					(reference "#PWR0540")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbol:5V")
+		(at 87.63 265.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8508c433-8789-4156-98a6-99e9b03e721d")
+		(property "Reference" "#PWR049"
+			(at 87.63 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V"
+			(at 87.63 261.62 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"5V\""
+			(at 87.63 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae5ccb12-afc8-4e92-81cc-256705db6c53")
+		)
+		(instances
+			(project "SmartChessboard_PCB"
+				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a/dc4a49c0-adf4-409a-9d7e-6d593011572b"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -72669,6 +73000,74 @@
 			(project "SmartChessboard_PCB"
 				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a/dc4a49c0-adf4-409a-9d7e-6d593011572b"
 					(reference "#PWR0220")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Jumper:SolderJumper_2_Bridged")
+		(at 87.63 269.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bbb5e2eb-4c94-489c-b213-f920fc9d704e")
+		(property "Reference" "JP3"
+			(at 85.09 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 90.17 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Jumper:Jumper_2_NC_Trace"
+			(at 92.202 269.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 87.63 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82898463-e73e-4de0-8428-8880e8ebb929")
+		)
+		(pin "2"
+			(uuid "a3612254-d182-41b8-a4e4-d2aad57c394d")
+		)
+		(instances
+			(project "SmartChessboard_PCB"
+				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a/dc4a49c0-adf4-409a-9d7e-6d593011572b"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
