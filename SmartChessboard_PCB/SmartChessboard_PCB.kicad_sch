@@ -162,6 +162,99 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_JLCPCB-Manufacturing:Mounting Hole, 3mm, Via Stiched"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 2.286 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:Hole, 3mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Mounting Hole, 3mm, Via Stiched_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Mounting Hole, 3mm, Via Stiched_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SparkFun-Aesthetic:OSHW_Logo"
 			(pin_names
 				(offset 1.016)
@@ -7503,16 +7596,16 @@
 		(uuid "7a4407a1-a90a-4a55-a867-5514615fd3d5")
 	)
 	(no_connect
+		(at 184.15 134.62)
+		(uuid "7b63571b-dfb1-49f2-a327-7ae5fd0b1938")
+	)
+	(no_connect
 		(at 72.39 69.85)
 		(uuid "83693d6d-234d-477c-bfb8-d6b5cf505a8b")
 	)
 	(no_connect
 		(at 184.15 129.54)
 		(uuid "84c5d33e-70e1-47cf-a0f0-c173bd69a8dc")
-	)
-	(no_connect
-		(at 184.15 118.11)
-		(uuid "9837a24f-f70d-4440-90dd-99728ae22bdf")
 	)
 	(no_connect
 		(at 83.82 96.52)
@@ -7727,6 +7820,16 @@
 			(type default)
 		)
 		(uuid "24cfeb26-b49d-44f2-b420-822275ba0dc2")
+	)
+	(wire
+		(pts
+			(xy 232.41 101.6) (xy 233.68 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2550695e-c9c6-4f95-901e-a31309e04872")
 	)
 	(wire
 		(pts
@@ -8210,6 +8313,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 91.44) (xy 233.68 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73879453-5fb9-4c18-baf4-75df6a8511fc")
+	)
+	(wire
+		(pts
 			(xy 49.53 63.5) (xy 49.53 62.23)
 		)
 		(stroke
@@ -8217,6 +8330,16 @@
 			(type default)
 		)
 		(uuid "739de561-1c92-4dd9-8725-42e744f5d9d3")
+	)
+	(wire
+		(pts
+			(xy 232.41 86.36) (xy 233.68 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74501712-855e-4ac4-a6d4-67cf1223b55c")
 	)
 	(wire
 		(pts
@@ -8460,7 +8583,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 118.11) (xy 184.15 118.11)
+			(xy 176.53 118.11) (xy 182.88 118.11)
 		)
 		(stroke
 			(width 0)
@@ -8760,7 +8883,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 134.62) (xy 182.88 134.62)
+			(xy 176.53 134.62) (xy 184.15 134.62)
 		)
 		(stroke
 			(width 0)
@@ -8887,6 +9010,16 @@
 			(type default)
 		)
 		(uuid "ed90e1e3-5dcd-4203-8d9a-f69289a7bbd3")
+	)
+	(wire
+		(pts
+			(xy 232.41 96.52) (xy 233.68 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edf41a5f-45e2-4890-8b22-bdd937439a42")
 	)
 	(wire
 		(pts
@@ -10180,7 +10313,7 @@
 	)
 	(global_label "EN"
 		(shape input)
-		(at 182.88 134.62 0)
+		(at 182.88 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10188,9 +10321,9 @@
 			)
 			(justify left)
 		)
-		(uuid "cccc899e-61a4-445f-b77b-cea9c62d1e6e")
+		(uuid "cf193cbd-0280-4527-8c29-f47755fbbb6e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.3447 134.62 0)
+			(at 188.3447 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10557,6 +10690,73 @@
 			(project "SmartChessboard_PCB"
 				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Manufacturing:Mounting Hole, 3mm, Via Stiched")
+		(at 236.22 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "095172df-0b75-4f94-901d-2dfadd00caa6")
+		(property "Reference" "H2"
+			(at 238.76 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 238.76 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Hole, 3mm"
+			(at 236.22 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3d01398-fd5f-4fe3-9592-ced3fd338327")
+		)
+		(instances
+			(project "SmartChessboard_PCB"
+				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -12476,6 +12676,71 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-PowerSymbol:GND")
+		(at 232.41 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61d06861-9c9d-4831-a16c-fa32b39d50b6")
+		(property "Reference" "#PWR053"
+			(at 226.06 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 232.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e1a097b-26d6-4f0e-a916-713cd9f7db69")
+		)
+		(instances
+			(project "SmartChessboard_PCB"
+				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-DiscreteSemi:D_TVS_ESD_USB")
 		(at 66.04 54.61 0)
 		(unit 1)
@@ -12939,6 +13204,71 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-PowerSymbol:GND")
+		(at 232.41 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7220ecf3-d9e7-4057-9a1a-84194b89e2cf")
+		(property "Reference" "#PWR052"
+			(at 226.06 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 232.41 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38324c3e-4769-49c0-85a3-206406a937c2")
+		)
+		(instances
+			(project "SmartChessboard_PCB"
+				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-Capacitor:4.7uF_0402_6.3V_10%")
 		(at 38.1 171.45 0)
 		(unit 1)
@@ -13101,6 +13431,138 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_JLCPCB-Manufacturing:Mounting Hole, 3mm, Via Stiched")
+		(at 236.22 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77e71328-4047-42b8-a9a0-625ea53f0994")
+		(property "Reference" "H1"
+			(at 238.76 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 238.76 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Hole, 3mm"
+			(at 236.22 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87ec98a1-3ff5-40ff-876a-0bade3673309")
+		)
+		(instances
+			(project ""
+				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbol:GND")
+		(at 232.41 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78405806-34cb-47af-bb84-8a5d8c9e7b32")
+		(property "Reference" "#PWR051"
+			(at 226.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 232.41 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6610faa-d39d-4c84-84cb-add0f1daa762")
+		)
+		(instances
+			(project "SmartChessboard_PCB"
+				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
 		(at 64.77 191.77 0)
 		(unit 1)
@@ -13230,6 +13692,73 @@
 			(project "SmartChessboard_PCB"
 				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Manufacturing:Mounting Hole, 3mm, Via Stiched")
+		(at 236.22 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f89003f-c5f4-4626-8b87-d4d5e88e3466")
+		(property "Reference" "H4"
+			(at 238.76 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 238.76 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Hole, 3mm"
+			(at 236.22 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e294420-4286-4ee8-9a39-feb786e17d25")
+		)
+		(instances
+			(project "SmartChessboard_PCB"
+				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -13898,6 +14427,73 @@
 			(project "SmartChessboard_PCB"
 				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Manufacturing:Mounting Hole, 3mm, Via Stiched")
+		(at 236.22 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c37000db-0aa4-4e32-9d6f-5e2ef98b8cb8")
+		(property "Reference" "H3"
+			(at 238.76 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 238.76 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Hole, 3mm"
+			(at 236.22 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "874894a9-2430-4f44-8708-d7cfc443ccb0")
+		)
+		(instances
+			(project "SmartChessboard_PCB"
+				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -14622,6 +15218,71 @@
 			(project "SmartChessboard_PCB"
 				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbol:GND")
+		(at 232.41 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5910abc-56ae-4b1b-a6b5-1b2e24fc4c60")
+		(property "Reference" "#PWR054"
+			(at 226.06 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 232.41 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a37c5df5-2538-4ac8-bd68-84248aa02c24")
+		)
+		(instances
+			(project "SmartChessboard_PCB"
+				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)

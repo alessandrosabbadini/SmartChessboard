@@ -2477,28 +2477,10 @@
 		(uuid "1c31dc5b-4f8c-42d0-ab01-c8a3597695c0")
 	)
 	(junction
-		(at 26.67 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c36fbd2-dd94-4885-ba09-bde829fccdb2")
-	)
-	(junction
-		(at 26.67 248.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3424c6f1-551f-4e3a-b7ff-a638fbdad16b")
-	)
-	(junction
 		(at 191.77 322.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e8a2baf-80b5-42fb-84b2-0722b5f6d28f")
-	)
-	(junction
-		(at 26.67 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d08ef79-f709-4cbf-a9bb-c95c0ac4188a")
 	)
 	(junction
 		(at 49.53 307.34)
@@ -2511,12 +2493,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8fb6e31c-2eb1-4dcc-b197-aac0a5ebf1d4")
-	)
-	(junction
-		(at 26.67 186.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95e34d87-0445-441d-a9c8-5f2d4511be04")
 	)
 	(junction
 		(at 176.53 307.34)
@@ -5639,16 +5615,6 @@
 			(type default)
 		)
 		(uuid "4e3e3e8d-babd-4e82-b69c-2e991dfac44d")
-	)
-	(wire
-		(pts
-			(xy 24.13 64.77) (xy 26.67 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e5dd524-2f69-48a1-8c80-cbd4a558f3d6")
 	)
 	(wire
 		(pts
@@ -10752,16 +10718,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 248.92) (xy 26.67 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3e57ffa-9af4-4879-a662-2361d1aca56f")
-	)
-	(wire
-		(pts
 			(xy 502.92 55.88) (xy 502.92 54.61)
 		)
 		(stroke
@@ -11462,16 +11418,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 186.69) (xy 26.67 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5fc622a-6afe-4acb-a530-46f7c16d812a")
-	)
-	(wire
-		(pts
 			(xy 26.67 64.77) (xy 26.67 67.31)
 		)
 		(stroke
@@ -11619,16 +11565,6 @@
 			(type default)
 		)
 		(uuid "ea7dd97c-4cf4-4138-83f7-454780599bd0")
-	)
-	(wire
-		(pts
-			(xy 25.4 125.73) (xy 26.67 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eafea09c-3754-43a1-931e-de5a8d2a1a7c")
 	)
 	(wire
 		(pts
@@ -44533,71 +44469,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-PowerSymbol:GND")
-		(at 24.13 248.92 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "58cab114-b297-4398-81e3-41d43db50ef9")
-		(property "Reference" "#PWR0205"
-			(at 17.78 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 20.32 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 24.13 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e75de2a-8e23-4b3f-85b8-007153d8de4b")
-		)
-		(instances
-			(project "SmartChessboard_PCB"
-				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a/dc4a49c0-adf4-409a-9d7e-6d593011572b"
-					(reference "#PWR0205")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-PowerSymbol:5V")
 		(at 574.04 204.47 0)
 		(unit 1)
@@ -74075,71 +73946,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-PowerSymbol:GND")
-		(at 24.13 64.77 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c0e128bd-2901-4b7d-8982-a01b98088e8e")
-		(property "Reference" "#PWR0203"
-			(at 17.78 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 20.32 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 24.13 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2086871e-6074-47da-86a2-2ca3405d9504")
-		)
-		(instances
-			(project "SmartChessboard_PCB"
-				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a/dc4a49c0-adf4-409a-9d7e-6d593011572b"
-					(reference "#PWR0203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-PowerSymbol:5V")
 		(at 292.1 115.57 270)
 		(unit 1)
@@ -79625,71 +79431,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-PowerSymbol:GND")
-		(at 24.13 186.69 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d57802a2-34b4-4fe4-8c08-0d82de63a98b")
-		(property "Reference" "#PWR0204"
-			(at 17.78 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 20.32 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 24.13 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ea56f444-9184-4cab-9282-f73b9700bad3")
-		)
-		(instances
-			(project "SmartChessboard_PCB"
-				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a/dc4a49c0-adf4-409a-9d7e-6d593011572b"
-					(reference "#PWR0204")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0402,4.7nF")
 		(at 566.42 90.17 0)
 		(unit 1)
@@ -84791,71 +84532,6 @@
 			(project "SmartChessboard_PCB"
 				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a/dc4a49c0-adf4-409a-9d7e-6d593011572b"
 					(reference "#PWR0345")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-PowerSymbol:GND")
-		(at 25.4 125.73 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e783c4e7-3325-45e7-b3e1-2271882511e3")
-		(property "Reference" "#PWR0206"
-			(at 19.05 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 21.59 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2d45a051-12e6-4aed-adb2-e463dcb2cab3")
-		)
-		(instances
-			(project "SmartChessboard_PCB"
-				(path "/50d928c0-ff4c-4bb8-82fb-6f4f93efef2a/dc4a49c0-adf4-409a-9d7e-6d593011572b"
-					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
