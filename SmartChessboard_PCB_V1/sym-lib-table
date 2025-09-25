@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "US5681KSE-AAA-000-RE")(type "KiCad")(uri "/Users/alessandrosabbadini/Documents/KiCad/Libraries/Hall sensors/US5681KSE-AAA-000-RE/US5681KSE-AAA-000-RE.kicad_sym")(options "")(descr ""))
+  (lib (name "FRJAE438")(type "KiCad")(uri "/Users/alessandrosabbadini/Documents/KiCad/Libraries/Connectors/RJ45/FRJAE438/FRJAE438.kicad_sym")(options "")(descr ""))
+)

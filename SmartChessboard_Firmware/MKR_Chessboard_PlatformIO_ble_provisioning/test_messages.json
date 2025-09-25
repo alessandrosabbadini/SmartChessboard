@@ -1,0 +1,104 @@
+{
+  "test_messages": [
+    {
+      "name": "WiFi Configuration",
+      "description": "Message to configure WiFi credentials",
+      "message": {
+        "type": "WIFI_CONFIG",
+        "id": "1",
+        "timestamp": 1234567890,
+        "data": {
+          "ssid": "YourWiFiNetwork",
+          "password": "YourWiFiPassword"
+        }
+      }
+    },
+    {
+      "name": "Ping Test",
+      "description": "Simple ping message to test connection",
+      "message": {
+        "type": "PING",
+        "id": "2",
+        "timestamp": 1234567890,
+        "data": {
+          "message": "Hello from Flutter app"
+        }
+      }
+    },
+    {
+      "name": "LED Control",
+      "description": "Test LED control",
+      "message": {
+        "type": "LED_CONTROL",
+        "id": "3",
+        "timestamp": 1234567890,
+        "data": {
+          "pattern": "blink",
+          "squares": ["e4", "d4"],
+          "color": "red",
+          "duration": 1000,
+          "intensity": 255
+        }
+      }
+    },
+    {
+      "name": "Haptic Feedback",
+      "description": "Test haptic feedback",
+      "message": {
+        "type": "HAPTIC_FEEDBACK",
+        "id": "4",
+        "timestamp": 1234567890,
+        "data": {
+          "pattern": "short",
+          "duration": 500,
+          "intensity": 200
+        }
+      }
+    }
+  ],
+  "expected_responses": [
+    {
+      "name": "Device Info",
+      "description": "Response when device connects",
+      "message": {
+        "type": "DEVICE_INFO",
+        "id": "1",
+        "timestamp": 1234567890,
+        "data": {
+          "name": "NAOchess Board",
+          "version": "1.0.0",
+          "capabilities": ["BLE", "WiFi", "LED", "Haptic"]
+        }
+      }
+    },
+    {
+      "name": "Pong Response",
+      "description": "Response to ping",
+      "message": {
+        "type": "PONG",
+        "id": "2",
+        "timestamp": 1234567890,
+        "data": {
+          "originalId": "2",
+          "originalTimestamp": 1234567890,
+          "message": "Hello from Flutter app"
+        }
+      }
+    },
+    {
+      "name": "WiFi Status",
+      "description": "Response to WiFi configuration",
+      "message": {
+        "type": "WIFI_STATUS",
+        "id": "1",
+        "timestamp": 1234567890,
+        "data": {
+          "status": "connecting",
+          "ip": "",
+          "signal": 0,
+          "error": ""
+        }
+      }
+    }
+  ]
+}
